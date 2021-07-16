@@ -1,10 +1,10 @@
 {
     "name": "@amamut/streamelementsevents",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Easily handle Stream Elements events",
     "main": "index.js",
     "scripts": {
-        "prepush": "yarn build && cp package.json dist",
+        "prepush": "yarn build && cp package.json dist && cp readme.md dist",
         "build": "rm -rf ./dist && tsc",
         "push": "yarn publish dist --access public",
         "test": "echo \"Error: no test specified\" && exit 1"
