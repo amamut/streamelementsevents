@@ -1,11 +1,12 @@
 {
     "name": "@amamut/streamelementsevents",
-    "version": "0.0.7",
+    "version": "0.0.8-0",
     "description": "Easily handle Stream Elements events",
     "main": "index.js",
     "scripts": {
         "prepush": "yarn build && cp package.json dist && cp readme.md dist",
         "build": "rm -rf ./dist && tsc",
+        "pack": "npx webpack",
         "push": "yarn publish dist --access public",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -26,6 +27,9 @@
     "homepage": "https://github.com/amamut/streamelements#readme",
     "devDependencies": {
         "@types/node": "^16.3.2",
-        "typescript": "^4.3.5"
+        "ts-loader": "^9.2.3",
+        "typescript": "^4.3.5",
+        "webpack": "^5.45.0",
+        "webpack-cli": "^4.7.2"
     }
 }
