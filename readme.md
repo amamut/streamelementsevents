@@ -2,7 +2,7 @@
 
 Easily handle Stream Elements events
 
-## Example
+## Usage
 
 ```typescript
 const registerOnLoad = (event: Event) => {
@@ -26,7 +26,7 @@ events.on(EventType.Gift, (event: StreamElementEvent) => {
 });
 ```
 
-## Contribution
+## Contributing
 
 ### Setup
 
