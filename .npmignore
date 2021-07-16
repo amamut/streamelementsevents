@@ -1,0 +1,8 @@
+src
+node_modules
+.envrc
+.nvmrc
+.prettierrc
+.gitignore
+tsconfig.json
+yarn.lock
