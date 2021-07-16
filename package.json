@@ -5,8 +5,7 @@
     "main": "index.js",
     "scripts": {
         "prepush": "yarn build && cp package.json dist && cp readme.md dist",
-        "build": "rm -rf ./dist && tsc",
-        "pack": "npx webpack",
+        "build": "npx webpack",
         "push": "yarn publish dist --access public",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
